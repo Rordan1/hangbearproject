@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
+
 body {
-  background-color: #34495e;
+  background-color: #4A490C;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -31,6 +32,15 @@ h1 {
   stroke: #fff;
   stroke-width: 4px;
   stroke-linecap: round;
+}
+
+.square {
+  height: 250px;
+  width: 250px;
+  background-color: #555;
+  align-items:top;
+  margin: 0, 20, 0, 20;
+  
 }
 
 .figure-part {
@@ -63,7 +73,7 @@ h1 {
 }
 
 .letter {
-  border-bottom: 3px solid #2980b9;
+  border-bottom: 3px solid #4A490C;
   display: inline-flex;
   font-size: 30px;
   align-items: center;
@@ -97,7 +107,7 @@ h1 {
 .popup button {
   cursor: pointer;
   background-color: #fff;
-  color: #2980b9;
+  color: #2980;
   border: 0;
   margin-top: 20px;
   padding: 12px 20px;
